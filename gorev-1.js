@@ -8,6 +8,6 @@
 export function multiply (a, b) {
   return a * b;
 }
-export function sum (a, b) {
+export function sum2 (a, b) {
   return d + c;
 }
