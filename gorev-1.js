@@ -11,3 +11,6 @@ export function multiply (a, b) {
 export function sum2 (a, b) {
   return d + c;
 }
+export function diff (a, b) {
+  return a + b;
+}
