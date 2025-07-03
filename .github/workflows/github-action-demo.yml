@@ -20,11 +20,14 @@ jobs:
     needs: hello-world  # This job waits for hello-world to complete
     
     steps:
+
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
-          cache: 'npm'
       
       - name: 🧪 Run tests
         run: node test.js
