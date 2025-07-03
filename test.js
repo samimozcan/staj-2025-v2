@@ -8,7 +8,7 @@ const response = diff(5, 6);
 
 console.log("Response:", response);
 
-if (response === 10) {
+if (response === 11) {
   console.log("Test passed: The sum is correct.");
 } else {
   console.log("Test failed: The sum is incorrect.");
