@@ -1,20 +1,24 @@
 /**
  * this function returns the sum of two numbers.
- * 
- * @param {*} a 
- * @param {*} b 
- * @returns 
+ *
+ * @param {*} a
+ * @param {*} b
+ * @returns
  */
 
-export function mul (a,b) {
-  return a*b;
-}
-export function multiply (a, b) {
+function mul(a, b) {
   return a * b;
 }
-export function sum2 (a, b) {
+function multiply(a, b) {
+  return a * b;
+}
+function sum2(a, b) {
   return d + c;
 }
-export function diff (a, b) {
+function diff(a, b) {
+  console.log("diff function called");
+  console.log("a:", a, "b:", b);
   return a + b;
 }
+
+diff(5, 6);
